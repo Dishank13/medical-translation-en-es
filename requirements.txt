@@ -1,0 +1,9 @@
+torch>=2.0
+transformers>=4.50
+sentencepiece
+sacrebleu>=2.4
+peft>=0.11
+scikit-learn
+numpy
+matplotlib
+protobuf

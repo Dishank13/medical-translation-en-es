@@ -1,0 +1,55 @@
+{
+  "system": "mT5",
+  "model": "google/mt5-small",
+  "architecture": "encoder-decoder",
+  "adaptation": "full fine-tuning on 8,000 pairs, 1 epoch (vocabulary trimmed to 23,616 tokens)",
+  "pretrained": true,
+  "tokenizer": "SentencePiece unigram, 250k multilingual vocab trimmed to 23,616",
+  "params_total": 68244864,
+  "params_original": 300176768,
+  "params_trained": 68244864,
+  "vocab_original": 250100,
+  "vocab_trimmed": 23616,
+  "test_token_coverage": 0.9962635351532713,
+  "before_finetuning_examples": [
+    "themapensapensapensapensapensapensapensapensapensaSOMA",
+    "themERTOSOMAvocab",
+    "themre Such -",
+    "thempensa",
+    "nso"
+  ],
+  "train_time_s": 1718.5279758999968,
+  "inference_time_s": 29.39738589999979,
+  "train_pairs": 8000,
+  "history": [
+    {
+      "step": 0,
+      "val_loss": 22.021389445438928
+    },
+    {
+      "step": 125,
+      "val_loss": 3.818078783629849,
+      "elapsed_s": 505.80016539999997
+    },
+    {
+      "step": 250,
+      "val_loss": 1.7224410698870543,
+      "elapsed_s": 904.1391057000001
+    },
+    {
+      "step": 375,
+      "val_loss": 1.4731306623214366,
+      "elapsed_s": 1304.2838970999983
+    },
+    {
+      "step": 500,
+      "val_loss": 1.3740941457477522,
+      "elapsed_s": 1718.5278569000002
+    },
+    {
+      "step": 500,
+      "val_loss": 1.3842788335788365,
+      "full_val": true
+    }
+  ]
+}

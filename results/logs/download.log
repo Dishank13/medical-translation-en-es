@@ -1,0 +1,14 @@
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]
+Fetching 6 files: 100%|##########| 6/6 [00:00<?, ?it/s]
+OK google/mt5-small
+
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]
+Fetching 7 files: 100%|##########| 7/7 [00:00<00:00, 213.05it/s]
+OK unsloth/Llama-3.2-1B-Instruct
+
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+
+Fetching 9 files:  56%|#####5    | 5/9 [11:40<09:20, 140.03s/it]
+Fetching 9 files: 100%|##########| 9/9 [11:40<00:00, 77.79s/it] 
+OK unsloth/gemma-3-1b-it

@@ -1,0 +1,30 @@
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+<site-packages>\transformers\convert_slow_tokenizer.py:564: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+parameters: 300,176,768 -> 68,244,864 after trimming the vocabulary from 250,100 to 23,616 tokens (test-token coverage 0.9963)
+{'step': 0, 'val_loss': 22.021389445438928}
+before fine-tuning: ['themapensapensapensapensapensapensapensapensapensaSOMA', 'themERTOSOMAvocab', 'themre Such -', 'thempensa', 'nso']
+step 25/500  train loss 12.345  100s
+step 50/500  train loss 7.124  196s
+step 75/500  train loss 5.413  294s
+step 100/500  train loss 4.825  395s
+step 125/500  train loss 4.513  494s
+{'step': 125, 'val_loss': 3.818078783629849, 'elapsed_s': 505.80016539999997}
+step 150/500  train loss 3.603  581s
+step 175/500  train loss 3.132  659s
+step 200/500  train loss 2.099  735s
+step 225/500  train loss 1.840  812s
+step 250/500  train loss 1.791  891s
+{'step': 250, 'val_loss': 1.7224410698870543, 'elapsed_s': 904.1391057000001}
+step 275/500  train loss 1.632  981s
+step 300/500  train loss 1.548  1061s
+step 325/500  train loss 1.531  1139s
+step 350/500  train loss 1.497  1216s
+step 375/500  train loss 1.460  1292s
+{'step': 375, 'val_loss': 1.4731306623214366, 'elapsed_s': 1304.2838970999983}
+step 400/500  train loss 1.437  1382s
+step 425/500  train loss 1.363  1463s
+step 450/500  train loss 1.378  1544s
+step 475/500  train loss 1.378  1622s
+step 500/500  train loss 1.331  1706s
+{'step': 500, 'val_loss': 1.3740941457477522, 'elapsed_s': 1718.5278569000002}

@@ -1,0 +1,5 @@
+{'system_a': 'Gemma-few', 'system_b': 'LLaMA-few', 'a_better_BLEU': 0.599, 'a_better_chrF': 0.613}
+{'system_a': 'Gemma-lora', 'system_b': 'LLaMA-lora', 'a_better_BLEU': 1.0, 'a_better_chrF': 1.0}
+{'system_a': 'Transformer', 'system_b': 'mT5', 'a_better_BLEU': 1.0, 'a_better_chrF': 0.999}
+{'system_a': 'Gemma-few', 'system_b': 'Gemma-lora', 'a_better_BLEU': 1.0, 'a_better_chrF': 1.0}
+{'system_a': 'Gemma-lora', 'system_b': 'Gemma-zero', 'a_better_BLEU': 1.0, 'a_better_chrF': 0.997}

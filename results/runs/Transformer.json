@@ -1,0 +1,52 @@
+{
+  "system": "Transformer",
+  "model": "Transformer (from scratch)",
+  "architecture": "encoder-decoder",
+  "adaptation": "trained from scratch on 30,000 pairs, 6 epochs",
+  "pretrained": false,
+  "tokenizer": "SentencePiece BPE, joint 8000 vocab",
+  "params_total": 7578624,
+  "params_trained": 7578624,
+  "train_time_s": 4087.0215715000013,
+  "inference_time_s": 33.181939399997646,
+  "train_pairs": 30000,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 7.117,
+      "val_loss": 5.927,
+      "elapsed_s": 701.0
+    },
+    {
+      "epoch": 2,
+      "train_loss": 5.182,
+      "val_loss": 4.394,
+      "elapsed_s": 1399.0
+    },
+    {
+      "epoch": 3,
+      "train_loss": 4.111,
+      "val_loss": 3.769,
+      "elapsed_s": 2070.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 3.67429373368268,
+      "val_loss": 3.517725194022517,
+      "elapsed_s": 2777.0613257000005
+    },
+    {
+      "epoch": 5,
+      "train_loss": 3.3904525759571866,
+      "val_loss": 3.37015392055805,
+      "elapsed_s": 3464.976967300001
+    },
+    {
+      "epoch": 6,
+      "train_loss": 3.203006969248762,
+      "val_loss": 3.2672067525309494,
+      "elapsed_s": 4086.9850817000006
+    }
+  ],
+  "resumed_after_epoch": 3
+}

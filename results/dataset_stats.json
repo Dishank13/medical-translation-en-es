@@ -1,0 +1,49 @@
+{
+  "raw_pairs": 1098333,
+  "clean_unique_pairs": 137914,
+  "train": {
+    "pairs": 30000,
+    "avg_en_words": 16.94,
+    "avg_es_words": 18.94
+  },
+  "val": {
+    "pairs": 500,
+    "avg_en_words": 17.32,
+    "avg_es_words": 19.61
+  },
+  "test": {
+    "pairs": 200,
+    "avg_en_words": 16.78,
+    "avg_es_words": 19.14
+  },
+  "train_en_word_types": 20471,
+  "train_es_word_types": 24576,
+  "train_sentences_with_digits": 11234,
+  "most_common_en_words": [
+    "the",
+    "of",
+    "in",
+    "and",
+    "to",
+    "with",
+    "is",
+    "a",
+    "be",
+    "for",
+    "or",
+    "patients",
+    "not",
+    "should",
+    "you",
+    "on",
+    "as",
+    "are",
+    "dose",
+    "may",
+    "your",
+    "treatment",
+    "if",
+    "that",
+    "use"
+  ]
+}

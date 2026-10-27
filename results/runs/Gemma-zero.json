@@ -1,0 +1,12 @@
+{
+  "model": "unsloth/gemma-3-1b-it",
+  "architecture": "decoder-only",
+  "pretrained": true,
+  "tokenizer": "GemmaTokenizerFast, 262,145 vocab",
+  "params_total": 999885952,
+  "system": "Gemma-zero",
+  "inference_time_s": 570.938346699997,
+  "adaptation": "zero-shot prompting",
+  "params_trained": 0,
+  "train_time_s": 0
+}

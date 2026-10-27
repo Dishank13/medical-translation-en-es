@@ -1,0 +1,12 @@
+{
+  "model": "unsloth/Llama-3.2-1B-Instruct",
+  "architecture": "decoder-only",
+  "pretrained": true,
+  "tokenizer": "PreTrainedTokenizerFast, 128,256 vocab",
+  "params_total": 1235814400,
+  "system": "LLaMA-zero",
+  "inference_time_s": 902.3579214999991,
+  "adaptation": "zero-shot prompting",
+  "params_trained": 0,
+  "train_time_s": 0
+}

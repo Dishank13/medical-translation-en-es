@@ -1,0 +1,13 @@
+{
+  "model": "unsloth/gemma-3-1b-it",
+  "architecture": "decoder-only",
+  "pretrained": true,
+  "tokenizer": "GemmaTokenizerFast, 262,145 vocab",
+  "params_total": 999885952,
+  "system": "Gemma-lora",
+  "inference_time_s": 755.1802691000012,
+  "adaptation": "LoRA (r=16) on 400 pairs, 1 epoch, then zero-shot prompt",
+  "params_trained": 2981888,
+  "train_time_s": 1343.5186017000015,
+  "train_pairs": 400
+}

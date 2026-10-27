@@ -1,0 +1,20 @@
+<site-packages>\torch\nn\modules\transformer.py:143: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = TransformerEncoder(
+parameters: 7,578,624
+  step 100  loss 7.583  141s
+  step 200  loss 6.280  293s
+  step 300  loss 6.933  433s
+  step 400  loss 6.337  600s
+epoch  1  train 7.117  val 5.927  701s
+  step 500  loss 5.291  743s
+  step 600  loss 5.749  889s
+  step 700  loss 5.392  1025s
+  step 800  loss 3.998  1197s
+  step 900  loss 2.286  1346s
+epoch  2  train 5.182  val 4.394  1399s
+  step 1000  loss 4.284  1485s
+  step 1100  loss 4.131  1619s
+  step 1200  loss 4.343  1770s
+  step 1300  loss 3.993  1907s
+  step 1400  loss 3.206  2055s
+epoch  3  train 4.111  val 3.769  2070s

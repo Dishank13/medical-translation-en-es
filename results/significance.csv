@@ -1,0 +1,6 @@
+system_a,system_b,a_better_BLEU,a_better_chrF
+Gemma-few,LLaMA-few,0.599,0.613
+Gemma-lora,LLaMA-lora,1.0,1.0
+Transformer,mT5,1.0,0.999
+Gemma-few,Gemma-lora,1.0,1.0
+Gemma-lora,Gemma-zero,1.0,0.997

@@ -1,0 +1,9 @@
+system,architecture,adaptation,params_total_M,params_trained_M,BLEU,chrF,train_time_min,inference_time_s,inference_s_per_sentence,number_fidelity,negation_kept,empty_or_copied
+Transformer,encoder-decoder,"trained from scratch on 30,000 pairs, 6 epochs",7.6,7.58,28.59,54.85,68.1,33.2,0.17,0.557,0.911,0.0
+mT5,encoder-decoder,"full fine-tuning on 8,000 pairs, 1 epoch (vocabulary trimmed to 23,616 tokens)",68.2,68.24,22.68,51.9,28.6,29.4,0.15,0.614,0.933,0.005
+LLaMA-zero,decoder-only,zero-shot prompting,1235.8,0.0,23.31,49.83,0.0,902.4,4.51,0.8,0.911,0.025
+LLaMA-few,decoder-only,"3-shot prompting, examples retrieved from the training split by TF-IDF similarity",1235.8,0.0,44.24,67.57,0.0,1737.2,8.69,0.957,1.0,0.005
+LLaMA-lora,decoder-only,"LoRA (r=16) on 400 pairs, 1 epoch, then zero-shot prompt",1235.8,3.41,34.62,60.25,34.6,821.3,4.11,0.914,1.0,0.005
+Gemma-zero,decoder-only,zero-shot prompting,999.9,0.0,34.45,61.32,0.0,570.9,2.85,0.971,0.933,0.0
+Gemma-few,decoder-only,"3-shot prompting, examples retrieved from the training split by TF-IDF similarity",999.9,0.0,44.6,67.88,0.0,1277.6,6.39,0.971,0.978,0.0
+Gemma-lora,decoder-only,"LoRA (r=16) on 400 pairs, 1 epoch, then zero-shot prompt",999.9,2.98,38.55,63.23,22.4,755.2,3.78,0.943,1.0,0.01
